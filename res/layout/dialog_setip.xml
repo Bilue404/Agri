@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="420dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg" >
+
+    <TextView
+        android:id="@+id/setip_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/dialog_close" />
+
+    <LinearLayout
+        android:id="@+id/setip_lin"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/setip_close"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/setip_ip1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_bg"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/setip_ip2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_bg"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/setip_ip3"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_bg"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/setip_ip4"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_bg"
+            android:gravity="center"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/setip_confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/setip_lin"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/confirm"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <!--
+    	<TextView
+            android:layout_width="10dp"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal|bottom"
+            android:text="@string/dian"
+            android:textSize="20sp" />
+    -->
+
+</RelativeLayout>

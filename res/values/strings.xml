@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">app_name</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="email">email</string>
+    <string name="forget_pass">forget_pass</string>
+    <string name="register_now">register_now ></string>
+    <string name="rem_pass">rem_pass</string>
+    <string name="register">register</string>
+    <string name="dian">.</string>
+    <string name="confirm">confirm</string>
+    <string name="setip">setip</string>
+    <string name="sensor_type">sensor_type：</string>
+    <string name="sensor_time">sensor_time：</string>
+    <string name="select">select</string>
+    <string name="findpw">findpw</string>
+    <string name="main_home">HOME</string>
+    <string name="main_history">history</string>
+    <string name="main_control">control</string>
+    <string name="main_setting">setting</string>
+    <string name="main_title">Intelligent Agriculture Expert System</string>
+    <string name="fragment_setting_guide">Show the guide pager</string>
+    <string name="fragment_setting_guide1">yes/no</string>
+    <string name="fragment_setting_language">language</string>
+    <string name="fragment_setting_language1">chainse/english</string>
+    <string name="fragment_setting_control">control_setting</string>
+    <string name="fragment_setting_control1">hand/auto</string>
+    <string name="fragment_setting_air">空气温湿度阀值设置</string>
+    <string name="fragment_setting_soil">土壤温湿度阀值设置</string>
+    <string name="fragment_setting_light">光照强度阀值设置</string>
+    <string name="fragment_setting_co2">CO2阀值设置</string>
+    <string name="fragment_setting_setting">setting</string>
+    <string name="find_pass">find_pw</string>
+    <string name="input_username">input your username</string>
+    <string name="cancle_s">cancle</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
